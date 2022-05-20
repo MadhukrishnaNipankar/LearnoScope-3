@@ -115,7 +115,7 @@ export default function VideoCard(props) {
             <div id={props.sno} className="videoCard card my-3 mx-3 shadow  bg-body rounded" style={{ "width": "21rem" }}>
                 <Link to="/videoWatchSection" style={{ textDecoration: "none", color: "black" }} >
 
-                    <div onClick={() => { handleVideoCardClick(props.sno) }} style={{ "width": "21rem", "height": "12rem", backgroundColor: "grey" }}>
+                    <div onClick={() => { handleVideoCardClick(props.sno) }} style={{ "width": "21rem", "height": "12rem", backgroundColor: "grey","cursor":"url('cursor/cursor.png'),auto" }}>
                         <img src={props.videoThumbnail} alt="loading.." style={{ "width": "21rem", "height": "12rem" }} />
                     </div>
                 </Link>

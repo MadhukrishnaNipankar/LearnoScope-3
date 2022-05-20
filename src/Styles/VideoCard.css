@@ -2,5 +2,4 @@
     transform: scale(1.13);
     transition: transform .6s;
     transition-delay: 0.1s;
-    cursor: pointer;
 }

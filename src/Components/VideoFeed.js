@@ -32,7 +32,7 @@ export default function VideoFeed() {
                 if (data.status === 200) {
                     console.log(data);
                     let profile_pic_src = `${userData.backendApi}` + data.profile_pic.profile_pic;
-                    // document.getElementById("dashboard-user-profile-pic").src = profile_pic_src;
+                     document.getElementById("dashboard-user-profile-pic").src = profile_pic_src;
                     for (var i = 0; i < data.response.length; i++) {
                         vidArray[i] = {};
                         vidArray[i].title = data.response[i].video_title;

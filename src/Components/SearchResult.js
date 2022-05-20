@@ -4,7 +4,7 @@ import { useContext } from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import Spinner from './Spinner';
-import ApplicationModeContext from '../Context/ApplicationMode/ApplicationModeContext';
+// import ApplicationModeContext from '../Context/ApplicationMode/ApplicationModeContext';
 import LoggedInStatusContext from '../Context/LoggedInStatus/LoggedInStatusContext';
 import VideoCard from './VideoCard';
 
